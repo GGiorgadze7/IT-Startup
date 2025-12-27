@@ -1,3 +1,7 @@
+/*ოფიციალური wix ის გვერდი : https://www.wix.com/website-template/view/html/4408?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F46&tpClick=view_button&esi=16724128-2e51-4061-851a-a0d172beb011 */
+
+/*  */
+
 :root {
   font-size: 16px;
 }
@@ -76,7 +80,7 @@ header .nav-div ul {
 header .nav-div a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .nav-div a:hover {
