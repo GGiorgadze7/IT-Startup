@@ -770,8 +770,6 @@ footer .third-div .copyright-span a {
 }
 
 @media (max-width: 768px) {
-
-
   /* #region burger menu for laptop */
   header nav {
     display: flex;
@@ -794,13 +792,13 @@ footer .third-div .copyright-span a {
     z-index: 100;
     overflow: hidden;
   }
-.burger-label span {
-  width: 90%;
-  height: 4px;
-  border-radius: 3px;
-  background-color: white;
-  transition: all 0.3s;
-}
+  .burger-label span {
+    width: 90%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: white;
+    transition: all 0.3s;
+  }
 
   .mobile-nav ul {
     list-style: none;
@@ -830,7 +828,6 @@ footer .third-div .copyright-span a {
   .mobile-nav ul li a:hover {
     color: rgb(181, 255, 220);
     transition: 0.4s;
-
   }
 
   #burger-menu:checked ~ .burger-label .line-1 {
@@ -888,7 +885,22 @@ footer .third-div .copyright-span a {
   }
 
   .vision-text {
-    padding-top: 160px;
+    padding-top: 110px;
+    width: 250px;
+  }
+
+  .vision-text .vision-p {
+    width: 250px;
+  }
+
+  .our-mission-div .mission-text {
+    width: 280px;
+    font-size: 0.9rem;
+  }
+
+  .our-mission-div .mission-h2 {
+    font-size: 1.5rem;
+    width: 200px;
   }
 
   .vision-div,
@@ -923,5 +935,169 @@ footer .third-div .copyright-span a {
     align-items: center;
     height: 300px;
     justify-content: center;
+  }
+}
+
+@media (max-width: 428px) {
+  header {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .nav-div ul {
+    display: none;
+  }
+
+  .burger-label {
+    width: 2.25rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: static;
+    margin-right: 30px;
+    top: 6%;
+    right: 8%;
+    z-index: 100;
+    overflow: hidden;
+  }
+
+  #burger-menu:checked ~ .burger-label {
+    position: fixed;
+    margin-right: 2px;
+  }
+
+  .burger-label span {
+    width: 90%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: white;
+    transition: all 0.3s;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 255, 220);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    border-radius: 0px;
+  }
+
+  .mobile-nav ul li {
+    margin-top: 50px;
+    margin: 10px auto;
+    border-bottom: solid #15241d 0.1px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px 0;
+  }
+
+  .mobile-nav ul li a {
+    color: #15241d;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .mobile-nav ul li a:hover {
+    color: rgb(181, 255, 220);
+    transition: 0.4s;
+  }
+
+  #burger-menu:checked ~ .burger-label .line-1 {
+    transform: rotate(45deg) translate(10px, 10px);
+    background-color: #15241d;
+  }
+
+  #burger-menu:checked ~ .burger-label .line-2 {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  #burger-menu:checked ~ .burger-label .line-3 {
+    transform: rotate(-45deg) translate(10px, -10px);
+    background-color: #15241d;
+  }
+
+  .hero-sec {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-second-div {
+    width: 100%;
+  }
+
+  .hero-second-img {
+    width: 100%;
+  }
+
+  .aboutus-sec {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-title-div .abou-title {
+    font-size: 1.3rem;
+  }
+
+  .about-title-div .abou-title-p {
+    font-size: 2.3rem;
+  }
+
+  .our-mission-div .mission-text {
+    padding-top: 0;
+    font-size: 1rem;
+  }
+
+  .vision-text {
+    padding-top: 0;
+  }
+
+  .vision-text .vision-p {
+    font-size: 1.2rem;
+  }
+
+  .learn-more-div {
+    height: 300px;
+    display: inline-block;
+  }
+
+  .learn-more-div a {
+    width: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  footer .first-div {
+    width: 100%;
+    height: 200px;
+  }
+
+  footer .second-div {
+    width: 100%;
+    height: 350px;
+  }
+
+  footer .third-div {
+    width: 100%;
+    margin: 0;
   }
 }
