@@ -332,6 +332,120 @@ header .nav-div ul .login:hover {
   object-position: 50% 50%;
 }
 
+/* services section */
+.services-heading {
+  margin-top: 250px;
+  text-align: center;
+  font-size: 1.7rem;
+  color: rgb(21, 36, 29);
+}
+
+.services-p {
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(21, 36, 29);
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.services-span {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
+  width: 650px;
+  margin-bottom: 150px;
+  color: rgb(21, 36, 29);
+}
+
+.advantages-div {
+  background-color: #15241d;
+  width: 97%;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 80px;
+  color: white;
+}
+
+.advantages-div h3 {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.advantages-div p {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+/* icons */
+.icons-div {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.icons-div .first-icon {
+  background-color: rgb(229, 230, 235);
+  width: 440px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 90px;
+}
+
+.icons-div .second-icon {
+  background-color: rgb(229, 230, 235);
+  width: 440px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 90px;
+}
+
+.icons-div .third-icon {
+  background-color: rgb(229, 230, 235);
+  width: 440px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 90px;
+}
+
+.icons-div .fourth-icon {
+  background-color: rgb(229, 230, 235);
+  width: 440px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 90px;
+}
+
+.icons-div .icons-svg {
+  margin-bottom: 70px;
+}
+
+.icons-div .icons-first-p {
+  color: #15241d;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.icons-div .icons-second-p {
+  width: 300px;
+  color: #15241d;
+  font-size: 2rem;
+  font-weight: 450;
+  margin-bottom: 20px;
+}
+
+.icons-div .icons-third-p {
+  color: #15241d;
+  font-size: 1.1rem;
+  width: 270px;
+  text-align: start;
+}
+
 /* #endregion */
 
 /* #region login page style */
