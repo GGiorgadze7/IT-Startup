@@ -80,7 +80,7 @@ header .nav-div ul {
 header .nav-div a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .nav-div a:hover {
@@ -225,15 +225,15 @@ header .nav-div ul .login:hover {
 }
 
 .about-title-div .abou-title {
-  color: #15241d;
+  color: rgb(21,36,29);
   margin-bottom: 5px;
-  font-size: 1.125rem;
+  font-size: 1.4rem;
 }
 
 .about-title-div .abou-title-p {
   color: #15241d;
   font-size: 70px;
-  font-size: 4.375rem;
+  font-size: 4.5rem;
 }
 
 .our-mission-div {
@@ -247,12 +247,13 @@ header .nav-div ul .login:hover {
 
 .our-mission-div .mission-text {
   padding-top: 100px;
-  width: 600px;
-  color: #15241d;
+  width: 890px;
+  color: rgb(21,36,29);
+  font-size: 1.19rem;
 }
 
 .our-mission-div .mission-h2 {
-  font-size: 33px;
+  font-size: 2.4rem;
   margin-bottom: 15px;
   color: #15241d;
 }
@@ -273,19 +274,20 @@ header .nav-div ul .login:hover {
 }
 
 .vision-text {
-  padding-top: 200px;
+  padding-top: 150px;
   width: 550px;
 }
 
 .vision-text .vision-h2 {
   color: #15241d;
-  font-size: 2.0625rem;
+  font-size: 2.4rem;
   margin-bottom: 15px;
 }
 
 .vision-text .vision-p {
   color: #15241d;
-  font-size: 1.125rem;
+  font-size: 1.19rem;
+  width: 750px;
 }
 
 .learn-more-div {
@@ -336,15 +338,15 @@ header .nav-div ul .login:hover {
 .services-heading {
   margin-top: 250px;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: rgb(21, 36, 29);
 }
 
 .services-p {
   text-align: center;
-  font-size: 6rem;
+  font-size: 4.8rem;
   color: rgb(21, 36, 29);
-  font-weight: 300;
+  font-weight: 350;
   margin-bottom: 50px;
 }
 
@@ -352,8 +354,8 @@ header .nav-div ul .login:hover {
   margin: 0 auto;
   text-align: center;
   display: block;
-  font-size: 1.5rem;
-  width: 650px;
+  font-size: 1.2rem;
+  width: 520px;
   margin-bottom: 150px;
   color: rgb(21, 36, 29);
 }
@@ -370,14 +372,14 @@ header .nav-div ul .login:hover {
 }
 
 .advantages-div h3 {
-  font-size: 1.7rem;
-  margin-bottom: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
   font-weight: 500;
 }
 
 .advantages-div p {
-  font-size: 6rem;
-  font-weight: 300;
+  font-size: 5rem;
+  font-weight: 350;
 }
 
 /* icons */
@@ -391,58 +393,58 @@ header .nav-div ul .login:hover {
 
 .icons-div .first-icon {
   background-color: rgb(229, 230, 235);
-  width: 440px;
-  height: 550px;
+  width: 495px;
+  height: 510px;
   border-radius: 20px;
-  padding: 90px;
+  padding: 100px;
 }
 
 .icons-div .second-icon {
   background-color: rgb(229, 230, 235);
-  width: 440px;
-  height: 550px;
+  width: 495px;
+  height: 510px;
   border-radius: 20px;
-  padding: 90px;
+  padding: 100px;
 }
 
 .icons-div .third-icon {
   background-color: rgb(229, 230, 235);
-  width: 440px;
-  height: 550px;
+  width: 495px;
+  height: 510px;
   border-radius: 20px;
-  padding: 90px;
+  padding: 100px;
 }
 
 .icons-div .fourth-icon {
   background-color: rgb(229, 230, 235);
-  width: 440px;
-  height: 550px;
+  width: 495px;
+  height: 510px;
   border-radius: 20px;
-  padding: 90px;
+  padding: 100px;
 }
 
 .icons-div .icons-svg {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .icons-div .icons-first-p {
   color: #15241d;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
 .icons-div .icons-second-p {
   width: 300px;
   color: #15241d;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 450;
   margin-bottom: 20px;
 }
 
 .icons-div .icons-third-p {
   color: #15241d;
-  font-size: 1.1rem;
-  width: 270px;
+  font-size: 1rem;
+  width: 250px;
   text-align: start;
 }
 
