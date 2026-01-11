@@ -610,10 +610,10 @@ header .nav-div ul .login:hover {
 }
 
 .contact-div .contact-input h3 {
- text-align: center;
- font-size: 1.4rem;
- font-weight: 500;
- margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .contact-div .contact-input p {
@@ -627,7 +627,6 @@ header .nav-div ul .login:hover {
   font-size: 1.2rem;
   margin-bottom: 50px;
 }
-
 
 .contact-div .contact-input form {
   display: flex;
@@ -699,11 +698,119 @@ header .nav-div ul .login:hover {
   transition: 0.3s;
 }
 
+/* #endregion */
+
+/* #region about us page  */
+
+.aboutus-page .aboutus-page-sec {
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.aboutus-page .aboutus-page-sec .h1-div {
+  background-color: #15241d;
+  height: 440px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 60px;
+}
+
+.aboutus-page .aboutus-page-sec .h1-div h1 {
+  display: inline-block;
+  padding-top: 120px;
+  width: 1000px;
+  color: white;
+  font-size: 5.5rem;
+  font-weight: 200;
+  align-items: end;
+}
+
+.aboutus-page .aboutus-page-sec .aboutus-hero-img img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .first-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 850px;
+  margin-bottom: 20px;
+}
+
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .first-row .text-div {
+  width: 50%;
+  background-color: rgb(181, 255, 220);
+  border-radius: 20px;
+  padding: 70px;
+}
+
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .first-row .text-div h2 {
+  font-size: 1.3rem;
+  margin-bottom: 220px;
+  color: #15241d;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .first-row .text-div p {
+  width: 490px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #15241d;
+}
+
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .first-row img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .second-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 780px;
+}
+
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .second-row img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .second-row .text-div {
+  width: 50%;
+  background-color: rgb(181, 255, 220);
+  padding: 70px;
+  border-radius: 20px;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .second-row .text-div h2 {
+  font-size: 1.3rem;
+  margin-bottom: 220px;
+  color: #15241d;
+}
+
+.aboutus-page .aboutus-page-sec .vision-aproach-div .second-row .text-div p {
+  width: 490px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #15241d;
+}
+
+
+
 
 
 
 
 /* #endregion */
+
+
+
 
 /* #region login page style */
 .login-div {
