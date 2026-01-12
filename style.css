@@ -722,7 +722,7 @@ header .nav-div ul .login:hover {
   width: 1000px;
   color: white;
   font-size: 5.5rem;
-  font-weight: 200;
+  font-weight: 400;
   align-items: end;
 }
 
@@ -751,13 +751,13 @@ header .nav-div ul .login:hover {
 
 .aboutus-page .aboutus-page-sec .vision-aproach-div .first-row .text-div h2 {
   font-size: 1.3rem;
-  margin-bottom: 220px;
+  margin-bottom: 150px;
   color: #15241d;
 }
 
 .aboutus-page .aboutus-page-sec .vision-aproach-div .first-row .text-div p {
   width: 490px;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 400;
   color: #15241d;
 }
@@ -789,14 +789,14 @@ header .nav-div ul .login:hover {
 }
 
 .aboutus-page .aboutus-page-sec .vision-aproach-div .second-row .text-div h2 {
-  font-size: 1.3rem;
-  margin-bottom: 220px;
+  font-size: 1.2rem;
+  margin-bottom: 150px;
   color: #15241d;
 }
 
 .aboutus-page .aboutus-page-sec .vision-aproach-div .second-row .text-div p {
   width: 490px;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 400;
   color: #15241d;
 }
@@ -805,10 +805,7 @@ header .nav-div ul .login:hover {
 
 
 
-
-
 /* #endregion */
-
 
 
 
@@ -1046,6 +1043,75 @@ header .nav-div ul .login:hover {
   color: #1555dd;
   text-decoration: none;
 }
+
+/* #endregion */
+
+
+
+/* #region 404 page */
+
+.page-404-body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+.page-404 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/F4ztSGV.gif);
+  background-size: cover;
+}
+
+.page-404 h1 {
+  color: white;
+  text-align: center;
+  font-size: 7rem;
+  padding-top: 12%;
+}
+
+.page-404 p {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.page-404 span {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.page-404 button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+  border: rgb(89, 89, 255) 1px solid;
+  width: 200px;
+}
+
+.page-404 a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-404 button:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+
+
 
 /* #endregion */
 
