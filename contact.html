@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>IT Startup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Romanesco&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -81,6 +85,35 @@
           </div>
       </nav>
     </header>
+
+
+    <main class="contact-page-main">
+        <div class="contact-page-main-div">
+        <img src="https://static.wixstatic.com/media/88aac0_d4d9e6fa2ef64b2380529ce7e2fb21c2~mv2.png" alt="contact-page-img">
+
+        <div class="contact-login">
+            <h1>Contact Us</h1>
+            <p>Reach Out</p>
+            <span>Let's Connect Today for Innovative Solutions.</span>
+
+            <form action="">
+                <label for="contact-page-name">First name*</label>
+                <input class="contact-page-firstname" type="text" id="contact-page-name" required>
+                <label for="contact-page-lastname">Last name*</label>
+                <input class="contact-page-lastname" type="text" id="contact-page-lastname" required>
+                <label for="contact-page-email">Email*</label>
+                <input class="contact-page-email" type="email" id="contact-page-email" required>
+                <label for="contact-page-message">Message*</label>
+                <textarea id="contact-page-message"></textarea>
+                <input class="contact-page-submit" type="submit" value="submit">
+
+            </form>
+        </div>
+
+        </div>
+
+
+    </main>
     
 
 
@@ -155,5 +188,10 @@
         
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
