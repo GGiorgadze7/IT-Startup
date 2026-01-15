@@ -25,7 +25,9 @@ header .nav-div .active {
 header {
   height: 110px;
   background-color: #15241d;
-  margin: 30px;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 20px;
   border-radius: 20px;
   position: relative;
 }
@@ -135,7 +137,9 @@ header .nav-div ul .login:hover {
 
 .hero-sec {
   display: flex;
-  margin: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 97%;
   justify-content: space-between;
 }
 
@@ -213,7 +217,9 @@ header .nav-div ul .login:hover {
 
 .aboutus-sec {
   height: 1811px;
-  margin: 30px;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .about-title-div {
@@ -335,6 +341,14 @@ header .nav-div ul .login:hover {
 }
 
 /* services section */
+
+.services-sec {
+  width: 97%;
+  margin: 0 auto;
+}
+
+
+
 .services-heading {
   margin-top: 250px;
   text-align: center;
@@ -362,7 +376,7 @@ header .nav-div ul .login:hover {
 
 .advantages-div {
   background-color: #15241d;
-  width: 97%;
+  width: 100%;
   height: 320px;
   margin: 0 auto;
   border-radius: 20px;
@@ -386,45 +400,45 @@ header .nav-div ul .login:hover {
 .icons-div {
   display: flex;
   justify-content: space-between;
-  width: 97%;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
 .icons-div .first-icon {
   background-color: rgb(229, 230, 235);
-  width: 495px;
-  height: 510px;
+  width: 24%;
+  height: 480px;
   border-radius: 20px;
-  padding: 100px;
+  padding: 5%;
 }
 
 .icons-div .second-icon {
   background-color: rgb(229, 230, 235);
-  width: 495px;
-  height: 510px;
+  width: 24%;
+  height: 480px;
   border-radius: 20px;
-  padding: 100px;
+  padding: 5%;
 }
 
 .icons-div .third-icon {
   background-color: rgb(229, 230, 235);
-  width: 495px;
-  height: 510px;
+  width: 24%;
+  height: 480px;
   border-radius: 20px;
-  padding: 100px;
+  padding: 5%;
 }
 
 .icons-div .fourth-icon {
   background-color: rgb(229, 230, 235);
-  width: 495px;
-  height: 510px;
+  width: 24%;
+  height: 480px;
   border-radius: 20px;
-  padding: 100px;
+  padding: 5%;
 }
 
 .icons-div .icons-svg {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .icons-div .icons-first-p {
@@ -434,7 +448,7 @@ header .nav-div ul .login:hover {
 }
 
 .icons-div .icons-second-p {
-  width: 300px;
+  width: 100%;
   color: #15241d;
   font-size: 1.5rem;
   font-weight: 450;
@@ -1561,7 +1575,8 @@ header .nav-div ul .login:hover {
 footer {
   bottom: 0;
   position: relative;
-  width: 100%;
+  width: 97%;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 footer .footer-df {
@@ -1573,7 +1588,6 @@ footer .footer-df {
 
 footer .first-div {
   background-color: #15241d;
-  margin-left: 30px;
   width: 50%;
   height: 368px;
   border-radius: 20px;
@@ -1596,7 +1610,6 @@ footer .first-div a {
 
 footer .second-div {
   background-color: #15241d;
-  margin-right: 30px;
   width: 50%;
   border-radius: 20px;
   padding: 60px;
@@ -1654,7 +1667,6 @@ footer .third-div .footer-links {
 footer .third-div {
   background-color: #15241d;
   height: 159px;
-  margin: 30px;
   margin-top: 20px;
   border-radius: 20px;
   padding: 60px;
@@ -1678,6 +1690,40 @@ footer .third-div .copyright-span a {
 }
 
 /* #endregion */
+
+
+@media (max-width:1280px) {
+
+  .icons-div .icons-second-p {
+    font-size: 1.2rem;
+
+  }
+
+  .icons-div .icons-third-p {
+    width: 130px;
+    font-size: 0.9rem;
+  }
+
+  .vision-text .vision-p {
+    width: 600px;
+  }
+
+  .contact-div .contact-input h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact-div .contact-input p {
+    font-size: 3.3rem;
+    margin-bottom: 60px;
+  }
+
+
+  .contact-div .contact-input span {
+    font-size: 1rem;
+  }
+}
+
+
 
 @media (max-width: 1060px) {
   footer .second-div {
@@ -1734,6 +1780,41 @@ footer .third-div .copyright-span a {
     padding: 7px;
     font-size: 0.7rem;
   }
+
+
+  .our-mission-div .mission-text {
+    font-size: 1rem;
+    width: 600px;
+  }
+
+  .our-mission-div .mission-text h2 {
+    font-size: 1.7rem;
+  }
+
+
+  .advantages-div p {
+    font-size: 4rem;
+  }
+
+  .testimonials-sec .testimonials-p {
+    font-size: 3rem;
+  }
+
+  .testimonials-sec .sara-div .sara-info h3 {
+    font-size: 1.3rem;
+    width: 250px;
+  }
+
+  .testimonials-sec .david-div .david-info h3 {
+    font-size: 1.3rem;
+    width: 250px;
+  }
+
+  .testimonials-sec .sophia-div .sophia-info h3 {
+    font-size: 1.3rem;
+    width: 250px;
+  }
+
 
   .rotate-svg {
     width: 20%;
