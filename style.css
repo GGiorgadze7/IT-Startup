@@ -1298,6 +1298,10 @@ header .nav-div ul .login:hover {
   outline: none;
 }
 
+.testimonials-grid {
+  
+}
+
 .login-div .inp-email:focus {
   scale: 1.1;
   transition: 0.2s;
