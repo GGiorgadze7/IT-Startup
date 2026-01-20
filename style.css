@@ -925,7 +925,7 @@ header .nav-div ul .login:hover {
   font-weight: 350;
   width: 250px;
   color: #15241d;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .services-page-main .boxes-div .third-box p {
@@ -953,7 +953,7 @@ header .nav-div ul .login:hover {
   font-weight: 350;
   width: 250px;
   color: #15241d;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .services-page-main .boxes-div .forth-box p {
@@ -1690,6 +1690,130 @@ footer .third-div .copyright-span a {
 
 /* #endregion */
 
+@media (max-width: 1615px) {
+  /* #region services page Media */
+
+  .services-page-main .boxes-div .first-box {
+    width: 60%;
+  }
+
+  .services-page-main .boxes-div .second-box {
+    width: 60%;
+  }
+
+  .services-page-main .boxes-div .third-box {
+    width: 60%;
+  }
+
+  .services-page-main .boxes-div .forth-box {
+    width: 60%;
+  }
+
+  .services-page-main .boxes-div svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .services-page-main .boxes-div .first-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    width: 168px;
+  }
+
+  .services-page-main .boxes-div .first-box p {
+    font-size: 0.9rem;
+    width: 260px;
+  }
+
+  .services-page-main .boxes-div .second-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    width: 168px;
+  }
+
+  .services-page-main .boxes-div .second-box p {
+    font-size: 0.9rem;
+    width: 260px;
+  }
+
+  .services-page-main .boxes-div .third-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+    width: 168px;
+  }
+
+  .services-page-main .boxes-div .third-box p {
+    font-size: 0.9rem;
+    width: 260px;
+  }
+
+  .services-page-main .boxes-div .forth-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+    width: 168px;
+  }
+
+  .services-page-main .boxes-div .forth-box p {
+    font-size: 0.9rem;
+    width: 260px;
+  }
+  /* #endregion */
+
+  /* #region careers media */
+
+  .cp-main .cp-img-div .cp-list .cp-first-list {
+    padding-top: 40px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list h3 {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list p {
+    width: 90%;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list {
+    padding-top: 40px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list h3 {
+    margin-top: 0;
+    width: 90%;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list p {
+    width: 90%;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list {
+    padding-top: 40px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list h3 {
+    margin-top: 0;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list p {
+    width: 90%;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list {
+    padding-top: 40px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list h3 {
+    margin-top: 0;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list p {
+    width: 90%;
+  }
+
+  /* #endregion */
+}
+
 @media (max-width: 1280px) {
   .icons-div .icons-second-p {
     font-size: 1.2rem;
@@ -1832,6 +1956,81 @@ footer .third-div .copyright-span a {
   footer .adress-span {
     font-size: 1.1rem;
   }
+
+  /* #region careers page media */
+  .cp-main .cp-img-div .cp-list .cp-first-list {
+    padding-left: 30px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list h2 {
+    padding: 10px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list {
+    padding-left: 30px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list h2 {
+    padding: 10px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list {
+    padding-left: 30px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list h2 {
+    padding: 10px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list {
+    padding-left: 30px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list h2 {
+    padding: 10px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list p {
+    width: 70%;
+  }
+
+  .cp-main .cp-img-div {
+    gap: 10px;
+  }
+
+  .cp-main .cp-hero-p {
+    width: 60%;
+  }
+
+  /* #endregion */
 }
 
 @media (max-width: 768px) {
@@ -1996,12 +2195,13 @@ footer .third-div .copyright-span a {
   footer .footer-df {
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
 
   footer .first-div,
   footer .second-div {
-    width: 93%;
-    margin: 10px 0;
+    width: 100%;
+    margin: 5px 0;
   }
 
   footer .first-div a {
@@ -2013,7 +2213,149 @@ footer .third-div .copyright-span a {
     align-items: center;
     height: 300px;
     justify-content: center;
+    margin-top: 0;
   }
+
+  /* #region services page media */
+  .services-page-main {
+    height: 1740px;
+    margin-bottom: 0;
+    padding-top: 90px;
+  }
+
+  .services-page-main .services-page-hero-p {
+    font-size: 3rem;
+    width: 400px;
+  }
+
+  .services-page-main span {
+    margin-bottom: 100px;
+    display: block;
+    width: 60%;
+    margin: 50px auto;
+  }
+
+  .services-page-main .boxes-div .first-box {
+    width: 70%;
+    height: 250px;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 10px 40px;
+  }
+
+  .services-page-main .boxes-div .first-box h2 {
+    margin-bottom: 0px;
+  }
+
+  .services-page-main .boxes-div .first-box p {
+    width: 80%;
+  }
+
+  .services-page-main .boxes-div .second-box {
+    width: 70%;
+    height: 250px;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 10px 40px;
+  }
+
+  .services-page-main .boxes-div .second-box h2 {
+    margin-bottom: 0px;
+  }
+
+  .services-page-main .boxes-div .second-box p {
+    width: 80%;
+  }
+
+  .services-page-main .boxes-div .third-box {
+    width: 70%;
+    height: 250px;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 10px 40px;
+  }
+
+  .services-page-main .boxes-div .third-box h2 {
+    margin-bottom: 0px;
+    width: 72%;
+  }
+
+  .services-page-main .boxes-div .third-box p {
+    width: 80%;
+  }
+
+  .services-page-main .boxes-div .forth-box {
+    width: 70%;
+    height: 250px;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 10px 40px;
+  }
+
+  .services-page-main .boxes-div .forth-box h2 {
+    margin-bottom: 0px;
+    width: 72%;
+  }
+
+  .services-page-main .boxes-div .forth-box p {
+    width: 80%;
+  }
+  /* #endregion */
+
+  /* #region careers page tablet media */
+  .cp-main .cp-img-div {
+    display: grid;
+    width: 100%;
+    height: 1790px;
+    grid-template-columns: 100%;
+    grid-template-rows: 600px 300px 300px 300px 300px;
+  }
+
+  .cp-main .cp-img-div .cp-list {
+    width: 100%;
+  }
+
+  .cp-main .cp-img-div img {
+    width: 100%;
+    height: 600px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0 auto;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 300px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-second-list {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    height: 300px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-third-list {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    height: 300px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-fourth-list {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    height: 300px;
+  }
+
+  .cp-main h1 {
+    margin-top: 70px;
+  }
+
+  .cp-main .cp-hero-p {
+    font-size: 2.3rem;
+  }
+
+  /* #endregion */
 }
 
 @media (max-width: 428px) {
@@ -2428,4 +2770,87 @@ footer .third-div .copyright-span a {
     align-items: normal;
     gap: 40px;
   }
+
+  /* #region services page mobile media */
+  .services-page-main {
+    height: 1600px;
+    padding-top: 50px;
+  }
+
+  .services-page-main h1 {
+    font-size: 1rem;
+  }
+
+  .services-page-main .services-page-hero-p {
+    font-size: 2rem;
+    width: 62%;
+    margin-bottom: 0;
+  }
+
+  .services-page-main span {
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .services-page-main .boxes-div .first-box {
+    width: 90%;
+    height: 300px;
+  }
+
+  .services-page-main .boxes-div .second-box {
+    width: 90%;
+    height: 300px;
+  }
+
+  .services-page-main .boxes-div .third-box {
+    width: 90%;
+    height: 300px;
+  }
+
+  .services-page-main .boxes-div .forth-box {
+    width: 90%;
+    height: 300px;
+  }
+
+  /* #region careers page mobile media */
+
+  .cp-main .cp-img-div {
+    height: 1900px;
+    grid-template-rows: 335px 310px 310px 310px 310px;
+  }
+  .cp-main h1 {
+    font-size: 1.1rem;
+  }
+
+  .cp-main .cp-hero-p {
+    font-size: 2rem;
+    width: 59%;
+  }
+
+  .cp-main .cp-img-div img {
+    height: 335px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list h2 {
+    padding: 20px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .cp-main .cp-img-div .cp-list .cp-first-list h3 {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* #endregion */
 }
