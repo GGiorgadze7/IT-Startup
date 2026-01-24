@@ -90,7 +90,7 @@ header .nav-div a {
 }
 
 header .nav-div ul .login {
-  background-color: rgb(204, 153, 1);
+  background-color: rgb(11, 19, 15);
   color: red;
   width: 80px;
   padding: 10px;
@@ -101,7 +101,7 @@ header .nav-div ul .login a {
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: rgb(10, 7, 196);
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -1291,88 +1291,6 @@ header .nav-div ul .login:hover {
 
 /* #endregion */
 
-/* #region login page style */
-.login-div {
-  background-color: rgb(165, 164, 164);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 700px;
-  height: 750px;
-  margin: 50px auto;
-  border-radius: 20px;
-}
-
-.login-div h2 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-  color: white;
-}
-
-.login-div .inp-email {
-  width: 450px;
-  padding: 12px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  outline: none;
-}
-
-.login-div .inp-email:focus {
-  scale: 1.1;
-  transition: 0.2s;
-}
-
-.login-div .inp-password {
-  width: 450px;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  outline: none;
-}
-
-.login-div .login-p {
-  color: white;
-  margin-bottom: 10px;
-}
-
-.login-div .inp-password:focus {
-  scale: 1.1;
-  transition: 0.2s;
-}
-
-.login-div .button {
-  width: 350px;
-  height: 30px;
-  background-color: #5b86e5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.login-div .button:hover {
-  scale: 1.1;
-  transition: 0.3s;
-}
-
-.login-div span {
-  margin-top: 8px;
-  color: white;
-  font-size: 1rem;
-}
-
-.login-div span a {
-  color: #0051ff;
-  text-decoration: none;
-}
-
-/* #endregion */
 
 /* #region signup style  */
 .signup-page form {
@@ -1471,6 +1389,7 @@ header .nav-div ul .login:hover {
   border: none;
   outline: none;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .signup-page .email-inp {
@@ -1480,6 +1399,7 @@ header .nav-div ul .login:hover {
   border: none;
   outline: none;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .signup-page .number-inp {
@@ -1489,6 +1409,7 @@ header .nav-div ul .login:hover {
   border: none;
   outline: none;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .signup-page .password-inp {
@@ -1498,6 +1419,7 @@ header .nav-div ul .login:hover {
   border: none;
   outline: none;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .signup-page .submit-inp {
