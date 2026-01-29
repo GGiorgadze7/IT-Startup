@@ -15,6 +15,11 @@
   box-shadow: 0px 0px 5px 7px rgb(11, 54, 40);
   background-color: #15241d;
 
+  &:hover{
+    scale: 1.05;
+    transition: 0.4s;
+  }
+
   h2 {
     margin-bottom: 20px;
     font-size: 2rem;
@@ -30,8 +35,13 @@
     font-size: 1rem;
     outline: none;
     background-color: rgb(27, 102, 77);
+    color: white;
 
-    :focus {
+    &::placeholder {
+      color: white;
+    }
+
+    &:focus {
       scale: 1.1;
       transition: 0.2s;
     }
@@ -47,8 +57,13 @@
     font-size: 1rem;
     outline: none;
     background-color: rgb(27, 102, 77);
+    color: white;
 
-    :focus {
+    &::placeholder {
+      color: white;
+    }
+
+    &:focus {
       scale: 1.1;
       transition: 0.2s;
     }
@@ -69,7 +84,7 @@
     font-size: 1rem;
     cursor: pointer;
 
-    :hover {
+    &:hover {
       scale: 1.1;
       transition: 0.3s;
     }
