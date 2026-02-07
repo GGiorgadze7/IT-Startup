@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -372,6 +373,300 @@ width: 100%;
   font-weight: 600;
 
 }
+
+
+
+
+
+
+  /* explore section */
+  .explore-sec {
+    background-color: rgb(1,1,1);
+    color: white;
+  }
+
+  .explore-sec .hero-div {
+    width: 100%;
+    padding-left: 60px;
+    border-bottom: 1px solid white;
+    padding-bottom: 120px;
+  }
+
+
+  .explore-sec .hero-div h1 {
+    color: white;
+    padding-top: 140px;
+    font-size: 5rem;
+    width: 18%;
+    min-width: 300px;
+    margin-bottom: 130px;
+    font-weight: 300;
+  }
+  
+.explore-sec .hero-div p {
+    color: white;
+    width: 23%;
+    min-width: 480px;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+  }
+
+  .explore-sec .hero-div a {
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    border: 1px solid white;
+  }
+
+.explore-sec .hero-div a:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+
+
+.explore-sec .list-div .first-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 10px 30px 10px 60px;
+}
+
+.explore-sec .list-div .first-div .middle-div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.explore-sec .list-div .first-div .middle-div:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.explore-sec .list-div .first-div h2 {
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+
+.explore-sec .list-div .first-div .middle-div h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #B0B0B0;
+}
+
+.explore-sec .list-div .first-div .middle-div p {
+  font-size: 1.3rem;
+  color: #B0B0B0;
+  width: 40%;
+  margin-right: 35px;
+}
+
+.explore-sec .list-div .first-div img {
+  width: 18%;
+  min-width: 300px;
+}
+
+
+.explore-sec .list-div .second-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 10px 30px 10px 60px;
+}
+
+.explore-sec .list-div .second-div .middle-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+  
+}
+
+.explore-sec .list-div .second-div h2 {
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+.explore-sec .list-div .second-div .middle-div h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #B0B0B0;
+  width: 100%;
+  max-width: 380px;
+  
+}
+
+
+.explore-sec .list-div .second-div img {
+  width: 18%;
+  min-width: 300px;
+}
+
+
+.explore-sec .list-div .second-div .middle-div p {
+  font-size: 1.3rem;
+  color: #B0B0B0;
+  width: 40%;
+  margin-right: 55px;
+}
+
+
+
+.explore-sec .list-div .third-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 10px 30px 10px 60px;
+}
+
+.explore-sec .list-div .third-div .middle-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+  
+}
+
+.explore-sec .list-div .third-div h2 {
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+.explore-sec .list-div .third-div .middle-div h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #B0B0B0;
+  width: 100%;
+  max-width: 380px;
+  
+}
+
+
+.explore-sec .list-div .third-div img {
+  width: 18%;
+  min-width: 300px;
+}
+
+
+.explore-sec .list-div .third-div .middle-div p {
+  font-size: 1.3rem;
+  color: #B0B0B0;
+  width: 40%;
+  margin-right: 55px;
+}
+
+
+
+
+
+.explore-sec .list-div .fourth-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 10px 60px;
+}
+
+.explore-sec .list-div .fourth-div .middle-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+  
+}
+
+.explore-sec .list-div .fourth-div h2 {
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+.explore-sec .list-div .fourth-div .middle-div h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #B0B0B0;
+  width: 100%;
+  max-width: 380px;
+  
+}
+
+
+.explore-sec .list-div .fourth-div img {
+  width: 18%;
+  min-width: 300px;
+}
+
+
+.explore-sec .list-div .fourth-div .middle-div p {
+  font-size: 1.3rem;
+  color: #B0B0B0;
+  width: 40%;
+  margin-right: 55px;
+}
+
+
+
+
+
+
+
+
+/* transform-section */
+.transform-sec {
+  background: url(https://static.wixstatic.com/media/c837a6_55cfec64830e4472a40ba44abebd7bff~mv2.jpg/v1/fill/w_1495,h_1134,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_55cfec64830e4472a40ba44abebd7bff~mv2.jpg);
+  background-size: cover;
+  width: 100%;
+    height: 1234px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-attachment: fixed
+}
+
+
+.transform-sec .third-sec-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.transform-sec .third-sec-div h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  width: 750px;
+  margin-bottom: 250px;
+  text-align: center;
+}
+
+.transform-sec .third-sec-div p {
+    font-size: 1.4rem;
+    width: 380px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.transform-sec .third-sec-div .download-links {
+  display: flex;
+  gap: 13px;
+}
+
+
+
 
 
 
