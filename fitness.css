@@ -593,6 +593,7 @@ header .nav-div ul .login:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  backdrop-filter: brightness(0.7);
   height: 100%;
 }
 
@@ -996,6 +997,7 @@ header .nav-div ul .login:hover {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 .carousel-sec .fourth-page {
@@ -1684,6 +1686,27 @@ footer .third-div .copyright-span a {
 
 
 
+header .header-title h2 a {
+    font-size: 1.35rem;
+    margin-bottom: 0;
+  }
+
+  .header-title a svg {
+    width: 45px;
+    height: 45px;
+  }
+
+.video-sec h1 {
+  width: 80%;
+}
+
+.video-sec .text-div p {
+  width: 80%;
+}
+
+
+
+
 
 
 
@@ -1714,7 +1737,7 @@ footer .third-div .copyright-span a {
   }
 
   header .header-title h2 a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 0;
   }
   header .nav-div ul {
@@ -2184,7 +2207,12 @@ footer .third-div .copyright-span a {
     background-color: #15241d;
   }
 
-
+  .hear-sec .hear-sec-div {
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    max-height: 750px;
+  }
 
 
 
